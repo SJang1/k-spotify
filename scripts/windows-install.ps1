@@ -1,4 +1,4 @@
-# Info users
+﻿# Info users
 
 Function TOS_English() {
   Write-Host "By using this script, you agree that we can Delete/Modify everything that is installed at ~/.spicetify folder, modify spotify configuration, and Powershell Configuration"
@@ -33,8 +33,6 @@ if($AgreeTOS -eq "y") {
 } else {
   Exit
 }
-
-TOS_English
 
 # ======================================= Functions and preparing starts here ======================================= #
 
